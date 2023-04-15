@@ -1,0 +1,26 @@
+.UserCard_Image{
+    display: flex;
+    width: 100px;
+    justify-self: center;
+    height: 100px;
+    border-radius: 100px;
+    align-self: center;
+}
+
+.userProfileImage{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+.userCard_detail{
+    height: 110px;
+    border: 2px solid gray;
+    line-height: 20px;
+    padding: 5px 5px;
+    margin-bottom: 5px;
+}
+
+.UserName{
+    font-size: 18px;
+}

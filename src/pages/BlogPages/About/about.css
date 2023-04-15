@@ -1,0 +1,13 @@
+.aboutImage{
+    width: 100%;
+    margin-top: -20px;
+}
+.aboutPage{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    height: fit-content;
+}
+/* #aboutFooter{
+   border: red;
+} */

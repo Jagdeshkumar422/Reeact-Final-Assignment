@@ -1,0 +1,17 @@
+html{
+    height: 100%;
+}
+
+body{
+    min-height: 100%;
+}
+.footer{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    color: white;
+    margin-top: auto;
+}

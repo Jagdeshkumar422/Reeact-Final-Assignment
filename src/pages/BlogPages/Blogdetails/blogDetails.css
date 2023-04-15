@@ -1,0 +1,19 @@
+.BlogDetails_Page{
+    display: flex;
+    flex-direction: column;
+}
+.BlogDetials{
+    /* border: 2px solid red; */
+    width: 70%;
+}
+
+.BlogDetailsMain{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width:600px) {
+    .BlogDetials{
+        width: 98%;
+    }
+}

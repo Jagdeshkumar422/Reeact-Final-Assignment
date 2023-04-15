@@ -1,0 +1,15 @@
+.logosection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+
+}
+
+.userLgo{
+    float: left;
+    z-index: 100;
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+}

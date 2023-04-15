@@ -1,0 +1,58 @@
+.AdminHome{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.adminMain{
+    width: 80%;
+}
+.postCards{
+    width: 100%;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around; */
+}
+
+.postCards1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.AdminViewMore{
+    display: flex;
+    width: 15%;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+    float: right;
+}
+
+@media screen and (max-width: 800px){
+    .adminMain{
+        width: 70%;
+    }
+    .AdminViewMore{
+        width: 30%;
+    }
+}
+@media screen and (max-width: 600px){
+    .adminMain{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 450px){
+    .adminMain{
+        width: 50%;
+    }
+    .AdminViewMore{
+        width: 50%;
+    }
+
+}

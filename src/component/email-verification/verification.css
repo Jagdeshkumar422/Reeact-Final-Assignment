@@ -1,0 +1,52 @@
+.verified{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#verify{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: white;
+    width: 50%;
+    padding: 20px;
+    border: 2px solid orange;
+    box-shadow: 0px 0px 20px goldenrod;
+}
+#Verifiedimg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.verificationimg{
+    width: 50px;
+}
+
+.VerificationHeading{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.Verification-p{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#Verification-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+button{
+    width: 30%;
+    margin-right: 10px;
+    height: 30px;
+    background-color: rgb(37, 105, 200);
+    color: white;
+    border-radius: 10px;
+}

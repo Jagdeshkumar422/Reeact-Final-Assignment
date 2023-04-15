@@ -1,0 +1,34 @@
+.sect-profile{
+    display: flex;
+    flex-direction: column;
+}
+.p-section{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.uploadProfile{
+    display: none;
+}
+
+.uploadButton{
+    width: 30px;
+    position: absolute;
+    bottom: 70px;
+    right: 65px;
+    cursor: pointer;
+}
+.ProfileImage{
+    width: 20%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid red;
+}
+.ProfileImagelogo{
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+}
